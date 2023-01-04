@@ -1,0 +1,6 @@
+// Copyright @ 2021 Ericom Software.  All Rights Reserved.
+
+// iOS permission prompts
+
+NSCameraUsageDescription = "Camera is used for scanning QR codes for importing ZTEdge Client configurations";
+NSFaceIDUsageDescription = "Face ID is used for authenticating viewing and exporting of private keys";

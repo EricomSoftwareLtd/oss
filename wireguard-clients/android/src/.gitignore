@@ -1,0 +1,16 @@
+/.gradle/
+/.idea/*.xml
+/.idea/caches/
+/.idea/dictionaries/
+/.idea/libraries/
+/captures/
+/local.properties
+.DS_Store
+.cxx/
+Thumbs.db
+build/
+*.apk
+*.class
+*.dex
+*.iml
+gradlew.bat

@@ -1,0 +1,6 @@
+buildscript {
+    ext {
+        wireguardVersionCode = 493
+        wireguardVersionName = '2.5.2'
+    }
+}

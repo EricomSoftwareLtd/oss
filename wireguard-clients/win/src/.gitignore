@@ -1,0 +1,25 @@
+# Dependencies
+/.deps/*
+
+# Build Output
+/out
+/x86
+/amd64
+/arm
+/arm64
+
+# cache gopath
+/gopath/pkg
+/gopath/pkg/mod/cache
+
+# gopath golang.org
+/gopath/pkg/mod/golang.org
+
+# Misc
+/locales/*/out.gotext.json
+/sign.bat
+*.swp
+*.bak
+*.syso
+.idea
+*.ico

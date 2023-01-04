@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="settings">
+    <com.ericom.ztac.preference.VersionPreference
+        android:icon="@mipmap/ic_launcher"
+        android:key="version" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="restore_on_boot"
+        android:summaryOff="@string/restore_on_boot_summary_off"
+        android:summaryOn="@string/restore_on_boot_summary_on"
+        android:title="@string/restore_on_boot_title" />
+    <com.ericom.ztac.preference.ZipExporterPreference android:key="zip_exporter" />
+    <Preference
+        android:key="log_viewer"
+        android:summary="@string/log_viewer_pref_summary"
+        android:title="@string/log_viewer_pref_title" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="dark_theme"
+        android:summaryOff="@string/dark_theme_summary_off"
+        android:summaryOn="@string/dark_theme_summary_on"
+        android:background="@color/red"
+        android:title="@string/dark_theme_title" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="multiple_tunnels"
+        android:summaryOff="@string/multiple_tunnels_summary_off"
+        android:summaryOn="@string/multiple_tunnels_summary_on"
+        android:title="@string/multiple_tunnels_title" />
+    <com.ericom.ztac.preference.ModuleDownloaderPreference android:key="module_downloader" />
+    <com.ericom.ztac.preference.ToolsInstallerPreference android:key="tools_installer" />
+    <com.ericom.ztac.preference.KernelModuleDisablerPreference android:key="kernel_module_disabler" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="allow_remote_control_intents"
+        android:summaryOff="@string/allow_remote_control_intents_summary_off"
+        android:summaryOn="@string/allow_remote_control_intents_summary_on"
+        android:title="@string/allow_remote_control_intents_title" />
+</androidx.preference.PreferenceScreen>
